@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.art-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+}
+
+.art-list-item{
+  background-color: rgb(214, 113, 130);
+  list-style: none;
+  width: 500px;
+  padding: 15px;
+  outline: solid rgb(216, 67, 92) 3px;
+  transition: all 0.3s ease;
+}
+
+.art-list-item:hover{
+  background-color: rgb(197, 104, 174);
+
+  transform: scale(1.05);
+}
+
+.list-link{
+  color: chartreuse;
+  text-decoration: double;
+  margin: 15px;
+}
+
+.list-text{
+  font-size: 20px;
+  padding-left: 20px;
+}
